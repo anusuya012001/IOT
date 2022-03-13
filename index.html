@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">SERVICES</a></li>
+            </ul>
+            <img src="images/menu.png" class="menu-icon">
+        </nav>
+        <div class="text-box">
+            <h1>I'm <span class="auto-input"></span></h1>
+            <p>Inspiration does exist, but it must find you working<br>Do not settle for average, The best is yet to be!</p>
+            <a href="">contact us</a>
+            <a href="" class="btn">download cv</a>
+        </div>
+        <img src="images/user.png" class="user-img">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Anusuya", "Web Developer", "UI Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+</body>
+</html>
